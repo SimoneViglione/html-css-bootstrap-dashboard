@@ -2,9 +2,14 @@
 
 .debug aside {
     width: 60px;
-    height: 100%;
-    background-color: blue;
-    border: dashed red;
+    height: calc(100vh - 60px);
+    background-color: rgb(19, 41, 63);
+}
+
+.debug .col-md-4 {
+    height: 100px;
+    background-color: rgb(27, 114, 232);
+    border: dashed black;
 }
 
 /**********************/
@@ -23,8 +28,7 @@ header {
 }
 
 main {
-    height: calc(100vh - 60px);
-    margin-top: 70px;
+    margin-top: 65px;
 }
 
 .ms_no_left_border {
@@ -44,7 +48,9 @@ main {
     color: rgb(255, 143, 0);
 }
 
-
+.ms_main_container {
+    width: calc(100% - 60px);
+}
 
 
 
