@@ -12,6 +12,26 @@
     border: dashed black;
 }
 
+.debug .a1 {
+    height: 250px;
+    background-color: blueviolet;
+}
+
+.debug .a2 {
+    height: 150px;
+    background-color: rosybrown;
+}
+
+.debug .a3 {
+    height: 100px;
+    background-color: olive;
+}
+
+.debug .a4 {
+    height: 400px;
+    background-color: coral;
+}
+
 /**********************/
 
 
