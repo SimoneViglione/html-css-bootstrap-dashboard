@@ -2,33 +2,19 @@ header {
     height: 60px;
 }
 
-
-
-
-/* DEBUG
-
-.debug header {
-    border: dashed black;
-}
-
-*/
-
 .ms_no_left_border {
     border-left: none;
 }
 
 .ms_img_container {
-    height: 30px;
+    height: 50px;
 }
 
 .ms_img_container img {
     height: 50px;
-    padding-bottom: 12px;
-    padding-right: 1rem;
+    padding-bottom: 2px;
 }
 
-.ms_i_container {
-    padding-left: 2rem;
-    padding-top: 5px;
+.ms_orange_text {
     color: rgb(255, 143, 0);
 }
