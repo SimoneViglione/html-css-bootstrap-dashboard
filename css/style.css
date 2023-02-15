@@ -1,5 +1,30 @@
+/******* DEBUG *********/
+
+.debug aside {
+    width: 60px;
+    height: 100%;
+    background-color: blue;
+    border: dashed red;
+}
+
+/**********************/
+
+
+
+/****** UTILITY *******/
+
+
+
+/**********************/
+
+
 header {
     height: 60px;
+}
+
+main {
+    height: calc(100vh - 60px);
+    margin-top: 70px;
 }
 
 .ms_no_left_border {
@@ -18,3 +43,15 @@ header {
 .ms_orange_text {
     color: rgb(255, 143, 0);
 }
+
+
+
+
+
+
+/***** RESPONSIVE ******/
+
+
+
+
+/***********************/
