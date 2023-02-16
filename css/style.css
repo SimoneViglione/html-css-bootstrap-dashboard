@@ -72,7 +72,7 @@ main {
 
 .ms_main_container {
     width: calc(100% - 60px);
-    height: 100vh;
+    height: calc(100vh - 60px);
     overflow-y: scroll;
 }
 
