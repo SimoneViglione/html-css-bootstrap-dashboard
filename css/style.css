@@ -104,6 +104,10 @@ aside {
     height: 80px;
 }
 
+aside .btn:hover {
+    background-color: grey;
+}
+
 .ms_btn_action:nth-child(odd):hover {
     color: white;
     background-color: orange;
