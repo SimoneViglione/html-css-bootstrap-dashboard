@@ -18,11 +18,29 @@
               <div class="input-group"> 
                 <div class="ms_img_container pe-3">
                     <img src="img/mobile-logo.png" alt="logo-boolean" class="d-lg-none" />
-                    <img src="img/logo.svg" alt="logo-boolean" class="d-none d-lg-inline-block"/>
+                    <img src="img/logo.svg" alt="logo-boolean" class="d-none d-lg-inline-block mt-1"/>
                 </div>
                 <span class="input-group-text rounded-start" id="basic-addon1"><i class="fa-solid fa-magnifying-glass"></i></span>
                 <input type="text" class="form-control ms_no_left_border rounded-end fw-lighter" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Username" aria-describedby="basic-addon1">
-                <div class="ms_orange_text ps-4 pt-2"><span><i class="fa-solid fa-bell"></i></span></div>
+                <div class="ms_header_icons ps-4 pt-2">
+                    
+                    <div class="dropdown">
+
+                        <i class="fa-solid fa-list d-none d-lg-inline-block ms_grey_text"></i>
+                        <i class="fa-solid fa-circle-question d-none d-lg-inline-block ms_grey_text"></i>
+                        <i class="fa-solid fa-ellipsis-vertical d-none d-lg-inline-block ms_grey_text"></i>
+
+                        <button class="me-3 mb-1 border-0 bg-light" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa-solid fa-bell ms_orange_text"></i>
+                        </button>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Profilo</a></li>
+                          <li><a class="dropdown-item" href="#">Fatturazione</a></li>
+                          <li><a class="dropdown-item" href="#">Logout</a></li>
+                        </ul>
+                      </div>
+
+                </div>
                 
               </div>
             </form>
@@ -64,7 +82,7 @@
                     <div class="row students">
                         <div class="col-12 col-md-3 aa">
                             <div class="d-flex py-3">
-                                <div>Nuovo studente</div>
+                                <div class="align-self-center">Nuovo studente</div>
                                 <a>
                                     <i class="fa-solid fa-plus btn btn-primary border-white ms-2"></i>
                                 </a>
@@ -72,7 +90,7 @@
                         </div>
 
                         <div class="col-12 col-md-3 py-3 aa">
-                            <p>Studenti online negli utlimi 30 minuti</p>
+                            <p class="mt-1">Studenti online negli utlimi 30 minuti</p>
                             <div class="fs-3">125</div>
                         </div>
 

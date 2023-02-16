@@ -40,6 +40,10 @@
     color: rgb(255, 143, 0);
 }
 
+.ms_grey_text {
+    color: rgb(91, 88, 88);
+}
+
 .ms_btn {
     
     background-color: rgb(22, 91, 186);
@@ -68,7 +72,10 @@ main {
 
 .ms_img_container img {
     height: 50px;
-    padding-bottom: 2px;
+}
+
+.ms_header_icons i {
+    padding: 0 5px;
 }
 
 .ms_main_container {
@@ -93,6 +100,10 @@ main {
 
     .ms_main_container {
         width: calc(100% - 100px);
+    }
+
+    .ms_img_container img {
+        height: 30px;
     }
 }
 
