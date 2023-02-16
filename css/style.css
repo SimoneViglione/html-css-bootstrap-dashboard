@@ -1,7 +1,5 @@
 /******* DEBUG *********/
 
-
-
 .debug .aa {
     background-color: rgb(27, 114, 232);
 }
@@ -9,11 +7,6 @@
 .debug .a1 {
     height: 250px;
     background-color: blueviolet;
-}
-
-.debug .a2 {
-    height: 150px;
-    background-color: rosybrown;
 }
 
 /**********************/
