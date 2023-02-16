@@ -83,9 +83,21 @@
                         <div class="col-12 col-md-3 aa">
                             <div class="d-flex py-3">
                                 <div class="align-self-center">Nuovo studente</div>
-                                <a>
+
+                                <a class="" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
                                     <i class="fa-solid fa-plus btn btn-primary border-white ms-2"></i>
                                 </a>
+
+                                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                                    <div class="offcanvas-header">
+                                        <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                    </div>
+                                    
+                                    <div class="offcanvas-body">
+                                        ...
+                                    </div>
+                                </div>
                             </div>
                         </div>
 
