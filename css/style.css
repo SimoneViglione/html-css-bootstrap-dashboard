@@ -56,6 +56,7 @@ header {
 main {
     margin-top: 60px;
     height: calc(100vh - 60px);
+    overflow-y: hidden;
 }
 
 .ms_no_left_border {
