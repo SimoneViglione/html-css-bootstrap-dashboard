@@ -133,6 +133,12 @@ aside {
 
 /***** RESPONSIVE ******/
 
+@media screen and (max-width: 576px) {
+    .ms_offcanvas {
+        width: 100%;
+    }
+}
+
 @media screen and (min-width: 768px) {
     .students {
         flex-direction: row-reverse;

@@ -88,14 +88,66 @@
                                     <i class="fa-solid fa-plus btn btn-primary border-white ms-2"></i>
                                 </a>
 
-                                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                                <div class="offcanvas offcanvas-end ms_offcanvas" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
                                     <div class="offcanvas-header">
-                                        <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
+                                        <h5 class="offcanvas-title" id="offcanvasRightLabel">Nuovo Studente</h5>
                                         <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                                     </div>
 
                                     <div class="offcanvas-body">
-                                        ...
+                                        <form>
+                                            <div class="mb-3 d-flex">
+                                                <div class="me-3">
+                                                    <label for="exampleInputEmail1" class="form-label">Nome</label>
+                                                    <input type="name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                                </div>
+                                                <div>
+                                                    <label for="exampleInputEmail1" class="form-label">Cognome</label>
+                                                    <input type="name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                                </div>
+                                            </div>
+
+                                            <div class="mb-3 d-flex">
+                                                <div class="me-3">
+                                                    <label for="exampleInputEmail1" class="form-label">Email</label>
+                                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                                </div>
+                                                <div>
+                                                    <label for="exampleInputEmail1" class="form-label">Password</label>
+                                                    <input type="password" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                                </div>
+                                            </div>
+
+                                                <div class="mb-3">
+                                                    <label for="exampleInputEmail1" class="form-label">Indirizzo</label>
+                                                    <input type="name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                                </div>
+
+                                                <div class="mb-3 d-flex">
+                                                    <div class="me-1">
+                                                        <label for="exampleInputEmail1" class="form-label">Città</label>
+                                                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                                    </div>
+                                                    <div>
+                                                        <div class="mb-3 me-1">
+                                                            <label for="disabledSelect" class="form-label">Stato</label>
+                                                            <select id="Select" class="form-select">
+                                                            <option>Italia</option>
+                                                            <option>Burkina Faso</option>
+                                                            <option>Italia 2</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+
+                                                    <div>
+                                                        <label for="exampleInputEmail1" class="form-label">CAP</label>
+                                                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                                    </div>
+                                                </div>
+
+                                            <button type="submit" class="btn btn-primary">Salva</button>
+                                            <button type="reset" class="btn btn-warning">Svuota</button>
+                                        </form>
                                     </div>
                                 </div>
                             </div>
