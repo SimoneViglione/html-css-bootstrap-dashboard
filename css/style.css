@@ -7,7 +7,6 @@
 }
 
 .debug .aa {
-    
     background-color: rgb(27, 114, 232);
     border: dashed black;
 }
@@ -38,7 +37,16 @@
 
 /****** UTILITY *******/
 
+.ms_orange_text {
+    color: rgb(255, 143, 0);
+}
 
+.ms_btn {
+    
+    background-color: rgb(22, 91, 186);
+    color: white;
+    border-radius: 25px;
+}
 
 /**********************/
 
@@ -62,10 +70,6 @@ main {
 .ms_img_container img {
     height: 50px;
     padding-bottom: 2px;
-}
-
-.ms_orange_text {
-    color: rgb(255, 143, 0);
 }
 
 .ms_main_container {
