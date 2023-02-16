@@ -63,7 +63,7 @@ main {
 }
 
 .ms_img_container {
-    height: 50px;
+    max-height: 50px;
 }
 
 .ms_img_container img {
