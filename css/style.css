@@ -6,12 +6,10 @@
     background-color: rgb(19, 41, 63);
 }
 
-.debug .col-md-4 {
-    height: 100px;
+.debug .aa {
+    
     background-color: rgb(27, 114, 232);
     border: dashed black;
-    font-size: 4rem;
-    text-align: center;
 }
 
 .debug .a1 {
@@ -87,7 +85,7 @@ main {
 
 @media screen and (min-width: 992px) {
     .debug aside {
-        width: 100px;
+        width: 125px;
     }
 
     .ms_main_container {
