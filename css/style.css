@@ -22,6 +22,10 @@
     background-color: rgb(247, 247, 247);
 }
 
+.ms_blue_bg {
+    background-color: rgb(27, 114, 232);
+}
+
 .ms_btn {
     background-color: rgb(22, 91, 186);
     color: white;
@@ -35,30 +39,13 @@
     padding: 2px 5px;
 }
 
-.ms_success {
-    color: white;
-    background-color: rgb(25, 135, 84);
-    padding: 1px 5px;
-    border-radius: 10px;
-    font-size: 12px;
-    margin-left: 6px;
-}
-
 .ms_ongoing {
     color: white;
     background-color: rgb(255, 193, 7);
+    font-weight: 700;
     padding: 1px 5px;
     border-radius: 10px;
     font-size: 12px;
-}
-
-.ms_failure {
-    color: white;
-    background-color: rgb(220, 53, 69);
-    padding: 1px 5px;
-    border-radius: 10px;
-    font-size: 12px;
-    margin-left: 6px;
 }
 
 .ms_class_icon {
