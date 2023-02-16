@@ -35,8 +35,6 @@
     padding: 2px 5px;
 }
 
-
-
 .ms_success {
     color: white;
     background-color: rgb(25, 135, 84);
@@ -120,11 +118,13 @@ aside {
 }
 
 .ms_btn_action:nth-child(odd):hover {
-    color: orange;
+    color: white;
+    background-color: orange;
 }
 
 .ms_btn_action:nth-child(even):hover {
-    color: red;
+    color: white;
+    background-color: red;
 }
 
 .dropdown i:not(:last-child):hover {
@@ -136,6 +136,30 @@ aside {
 @media screen and (max-width: 576px) {
     .ms_offcanvas {
         width: 100%;
+    }
+
+    td:nth-child(2) {
+        display: none;
+    }
+
+    th:nth-child(2) {
+        display: none;
+    }
+
+    td:nth-child(3) {
+        display: none;
+    }
+
+    th:nth-child(3) {
+        display: none;
+    }
+
+    .card {
+        max-width: 350px;
+    }
+
+    table {
+        max-width: 350px;
     }
 }
 
