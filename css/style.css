@@ -1,11 +1,6 @@
 /******* DEBUG *********/
 
-.debug .aa {
-    background-color: rgb(27, 114, 232);
-}
-
 /**********************/
-
 
 
 /****** UTILITY *******/
@@ -71,16 +66,8 @@ main {
     overflow-y: hidden;
 }
 
-.ms_no_left_border {
-    border-left: none;
-}
-
 .ms_img_container img {
     height: 50px;
-}
-
-.ms_header_icons i {
-    padding: 0 5px;
 }
 
 .ms_main_container {
@@ -93,6 +80,7 @@ aside {
     width: 60px;
     height: calc(100vh - 60px);
     background-color: rgb(19, 41, 63);
+    background-image: url(../img/sidebar-bg.png);
 }
 
 .sidebar_top {
@@ -116,10 +104,6 @@ aside .btn:hover {
 .ms_btn_action:nth-child(even):hover {
     color: white;
     background-color: red;
-}
-
-.dropdown i:not(:last-child):hover {
-    color: rgb(96, 43, 231);
 }
 
 /***** RESPONSIVE ******/
@@ -151,12 +135,6 @@ aside .btn:hover {
 
     table {
         max-width: 350px;
-    }
-}
-
-@media screen and (min-width: 768px) {
-    .students {
-        flex-direction: row-reverse;
     }
 }
 

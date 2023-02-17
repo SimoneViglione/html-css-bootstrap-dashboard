@@ -21,18 +21,19 @@
                     <img src="img/logo.svg" alt="logo-boolean" class="d-none d-lg-inline-block mt-1"/>
                 </div>
                 <span class="input-group-text rounded-start" id="basic-addon1"><i class="fa-solid fa-magnifying-glass"></i></span>
-                <input type="text" class="form-control ms_no_left_border rounded-end fw-lighter" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Username" aria-describedby="basic-addon1">
-                <div class="ms_header_icons ps-4 pt-2">
+                <input type="text" class="form-control border-start-0 rounded-end fw-lighter" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Username" aria-describedby="basic-addon1">
+                <div class="ps-4 pt-2">
                     
                     <div class="dropdown">
 
-                        <a href="#"><i class="fa-solid fa-list d-none d-lg-inline-block ms_grey_text"></i></a>
-                        <a href="#"><i class="fa-solid fa-circle-question d-none d-lg-inline-block ms_grey_text"></i></a>
-                        <a href="#"><i class="fa-solid fa-ellipsis-vertical d-none d-lg-inline-block ms_grey_text"></i></a>
+                        <a href="#"><i class="fa-solid fa-list d-none d-lg-inline-block px-1 ms_grey_text"></i></a>
+                        <a href="#"><i class="fa-solid fa-circle-question d-none d-lg-inline-block px-1 ms_grey_text"></i></a>
+                        <a href="#"><i class="fa-solid fa-ellipsis-vertical d-none d-lg-inline-block px-1 ms_grey_text"></i></a>
 
                         <button class="me-3 mb-1 border-0 bg-light" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                             <i class="fa-solid fa-bell ms_orange_text ms_ring"></i>
                         </button>
+
                         <ul class="dropdown-menu">
                           <li><a class="dropdown-item" href="#">Profilo</a></li>
                           <li><a class="dropdown-item" href="#">Fatturazione</a></li>
@@ -58,7 +59,7 @@
                         <span class="d-none d-lg-inline-block">Home</span>
                     </div>
 
-                    <div class="text-white ms-1 mt-1 btn">
+                    <div class="text-white ms-1 mt-1 pe-3 btn">
                         <i class="fa-solid fa-chart-simple me-2"></i>
                         <span class="d-none d-lg-inline-block ps-1">Stats</span>
                     </div>
@@ -79,8 +80,8 @@
 
             <div class="ms_main_container">
                 <div class="container-fluid text-white">
-                    <div class="row students">
-                        <div class="col-12 col-md-3 aa">
+                    <div class="row students ms_blue_bg">
+                        <div class="col-12 col-md-3 order-md-2">
                             <div class="d-flex py-3">
                                 <div class="align-self-center">Nuovo studente</div>
 
@@ -112,53 +113,51 @@
                                                     <label for="exampleInputEmail1" class="form-label">Email</label>
                                                     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                                                 </div>
+
                                                 <div>
                                                     <label for="exampleInputEmail1" class="form-label">Password</label>
                                                     <input type="password" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                                                 </div>
                                             </div>
 
-                                                <div class="mb-3">
-                                                    <label for="exampleInputEmail1" class="form-label">Indirizzo</label>
-                                                    <input type="name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                            <div class="mb-3">
+                                                <label for="exampleInputEmail1" class="form-label">Indirizzo</label>
+                                                <input type="name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                            </div>
+
+                                            <div class="mb-3 d-flex">
+                                                <div class="me-1">
+                                                    <label for="exampleInputEmail1" class="form-label">Città</label>
+                                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                                                 </div>
 
-                                                <div class="mb-3 d-flex">
-                                                    <div class="me-1">
-                                                        <label for="exampleInputEmail1" class="form-label">Città</label>
-                                                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                                                    </div>
-                                                    <div>
-                                                        <div class="mb-3 me-1">
-                                                            <label for="disabledSelect" class="form-label">Stato</label>
-                                                            <select id="Select" class="form-select">
-                                                            <option>Italia</option>
-                                                            <option>Burkina Faso</option>
-                                                            <option>Italia 2</option>
-                                                            </select>
-                                                        </div>
-                                                    </div>
-
-                                                    <div>
-                                                        <label for="exampleInputEmail1" class="form-label">CAP</label>
-                                                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                                <div>
+                                                    <div class="mb-3 me-1">
+                                                        <label for="disabledSelect" class="form-label">Stato</label>
+                                                        <select id="Select" class="form-select">
+                                                        <option>Italia</option>
+                                                        <option>Burkina Faso</option>
+                                                        <option>Italia 2</option>
+                                                        </select>
                                                     </div>
                                                 </div>
+
+                                                <div>
+                                                    <label for="exampleInputEmail1" class="form-label">CAP</label>
+                                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                                </div>
+                                            </div>
 
                                             <button type="submit" class="btn btn-primary">Salva</button>
                                             <button type="reset" class="btn btn-warning">Svuota</button>
+
                                         </form>
                                     </div>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="col-12 col-md-3 py-3 aa">
-                            <p class="mt-1">Studenti online negli utlimi 30 minuti</p>
-                            <div class="fs-3">125</div>
-                        </div>
-
-                        <div class="col-12 col-md-6 aa">
+                        <div class="col-12 col-md-6 order-md-0">
                             <div class="d-flex pt-3">
                                 <h2>Boolean</h2>
                                 <a class="align-self-center btn btn-sm ms_btn ms-1">Piano blaze</a>
@@ -174,6 +173,11 @@
                                 </div>
                                 <a><i class="fa-solid fa-plus btn btn-sm ms_btn d-lg-none ms-2"></i></a>
                             </div>
+                        </div>
+
+                        <div class="col-12 col-md-3 py-3">
+                            <p class="mt-1">Studenti online negli utlimi 30 minuti</p>
+                            <div class="fs-3">125</div>
                         </div>
                     </div>
                 </div>
